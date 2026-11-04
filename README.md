@@ -73,6 +73,12 @@ Each script prints something when you run it, so you can tell it works before wi
 覆盖大家真正踩坑的地方：能对得上的前/后复权、一次请求取全市场实时快照、五档盘口、批量取历史不被限频，
 以及几个把行情喂给 LLM / agent 的工程写法。装好依赖、设置 `ALPHAFEED_API_KEY` 就能跑。
 
+## Related
+
+- [awesome-a-share-data](https://github.com/alphafeed-dev/awesome-a-share-data) — curated list of A-share data sources and tools.
+- [AlphaFeed blog](https://blog.alphafeed.org) — longer write-ups behind these recipes.
+- [Docs](https://docs.alphafeed.org) · [alphafeed.org](https://alphafeed.org)
+
 ## Notes
 
 - Examples use real endpoints; running them consumes your quota.
