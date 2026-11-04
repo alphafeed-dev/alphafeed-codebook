@@ -62,6 +62,7 @@ free data starts costing you more time than money.
 | `07-migration/` | switch from Tushare / AkShare / Baostock — call & field mapping |
 | `05-analysis/` | MACD / RSI / Bollinger, returns / vol / max drawdown / Sharpe, VWAP — no TA-Lib |
 | `06-engineering/` | batch history, local Parquet/SQLite store, adjust-factor reconciliation |
+| `benchmark/` | reproducible latency / fields / adjust comparison vs AkShare & Baostock — see [RESULTS](benchmark/RESULTS.md) |
 | `08-ai-workflow/` | feed a DataFrame to an LLM, daily recap, data source for an agent (MCP-style) |
 
 Each script prints something when you run it, so you can tell it works before wiring it into anything.

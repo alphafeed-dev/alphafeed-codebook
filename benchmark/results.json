@@ -1,0 +1,86 @@
+[
+  {
+    "source": "AlphaFeed",
+    "daily_ms": 781.8,
+    "daily_rows": 120,
+    "daily_cols": [
+      "symbol",
+      "name",
+      "timestamp",
+      "trade_date",
+      "trade_time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "amount"
+    ],
+    "numeric_ok": true,
+    "has_amount": true,
+    "rt_ms": 756.0,
+    "realtime": "yes",
+    "depth_ms": 661.8,
+    "depth": "yes (5-level)",
+    "adjust_modes": [
+      "none",
+      "forward",
+      "backward",
+      "forward_additive",
+      "backward_additive"
+    ]
+  },
+  {
+    "source": "AkShare",
+    "daily_ms": 30.2,
+    "daily_rows": 121,
+    "daily_cols": [
+      "日期",
+      "股票代码",
+      "开盘",
+      "收盘",
+      "最高",
+      "最低",
+      "成交量",
+      "成交额",
+      "振幅",
+      "涨跌幅",
+      "涨跌额",
+      "换手率"
+    ],
+    "numeric_ok": true,
+    "has_amount": true,
+    "rt_ms": 171.6,
+    "realtime": "yes (scraped)",
+    "depth": "yes (5-level, scraped)",
+    "depth_ms": 171.6,
+    "adjust_modes": [
+      "none",
+      "qfq",
+      "hfq"
+    ]
+  },
+  {
+    "source": "Baostock",
+    "daily_ms": 238.3,
+    "daily_rows": 121,
+    "daily_cols": [
+      "date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "amount"
+    ],
+    "numeric_ok": false,
+    "has_amount": true,
+    "realtime": "no",
+    "depth": "no",
+    "adjust_modes": [
+      "none",
+      "qfq",
+      "hfq"
+    ]
+  }
+]
