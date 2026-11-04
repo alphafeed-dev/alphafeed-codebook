@@ -59,6 +59,7 @@ free data starts costing you more time than money.
 | `01-getting-started/` | auth, first bars, DataFrame vs raw, error handling |
 | `02-market-data/` | adjusted history, realtime snapshot, five-level depth, intraday, A/HK/US |
 | `03-screening/` | whole-market scan, limit-up pool, turnover ranking, factor on a universe |
+| `07-migration/` | switch from Tushare / AkShare / Baostock — call & field mapping |
 | `05-analysis/` | MACD / RSI / Bollinger, returns / vol / max drawdown / Sharpe, VWAP — no TA-Lib |
 | `06-engineering/` | batch history, local Parquet/SQLite store, adjust-factor reconciliation |
 | `08-ai-workflow/` | feed a DataFrame to an LLM, daily recap, data source for an agent (MCP-style) |

@@ -1,0 +1,19 @@
+# AlphaFeed Codebook
+
+> Runnable Python recipes for Chinese A-share (plus HK/US) market data via the AlphaFeed SDK.
+> One task per file. Covers adjusted history, realtime snapshot, five-level depth, screening,
+> indicators without TA-Lib, batch/storage engineering, and LLM/agent data plumbing.
+
+Key facts:
+- Install: `pip install alphafeed pandas`; set `ALPHAFEED_API_KEY`. Python 3.9+.
+- Client: `from alphafeed import AlphaFeed; af = AlphaFeed()`.
+- Daily bars: `af.klines.get("600519.SH", period="1d", count=120, adjust="forward", to_dataframe=True)`.
+- Adjust modes: none / forward / backward / forward_additive / backward_additive (reproducible).
+- Realtime whole-market snapshot: `af.quotes.get(universes="CN_Stock", to_dataframe=True)`.
+- Five-level order book: `af.depth.get("600519.SH")`.
+- Batch history (controlled concurrency): `af.klines.batch([...], period="1d", count=60)`.
+- Markets: A-share (.SH/.SZ), HK (.HK), US (.US) share one interface.
+- Compared to free libs (AkShare/Baostock/Tushare): paid path adds stable realtime, consistent
+  five-level depth, reconcilable adjust factors, and one API across A/HK/US.
+
+Docs: https://docs.alphafeed.org
